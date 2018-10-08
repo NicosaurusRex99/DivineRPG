@@ -3,7 +3,8 @@ import java.util.Random;
 
 import naturix.divinerpg.DivineRPG;
 import naturix.divinerpg.registry.ModBlocks;
-import naturix.divinerpg.world.TreeGen;
+import naturix.divinerpg.world.treegen.BiggerEdenTree;
+import naturix.divinerpg.world.treegen.TreeGen;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;
@@ -71,8 +72,7 @@ public class SaplingEden extends BlockBush implements IGrowable
      * Whether this IGrowable can grow
      */
     @Override
-    public boolean canGrow(World worldIn, BlockPos pos, IBlockState state, boolean isClient)
-    {
+    public boolean canGrow(World worldIn, BlockPos pos, IBlockState state, boolean isClient) {
         return true;
     }
 
@@ -83,15 +83,22 @@ public class SaplingEden extends BlockBush implements IGrowable
     }
 
     @Override
-    public void grow(World worldIn, Random rand, BlockPos pos, IBlockState state)
-    {
+    public void grow(World worldIn, Random rand, BlockPos pos, IBlockState state) {
+        WorldGenerator genEdenTree = new BiggerEdenTree(true, 3, ModBlocks.edenLog.getDefaultState(), ModBlocks.edenLeaves.getDefaultState());
+        int random = rand.nextInt(10);
         if (state.getValue(STAGE).intValue() == 0)
         {
             worldIn.setBlockState(pos, state.cycleProperty(STAGE), 4);
         }
         else
         {
-            generateTree(worldIn, pos, state, rand);
+            if (worldIn.getBlockState(pos).getBlock() == ModBlocks.edenSapling){
+                if (random < 2){
+                    genEdenTree.generate(worldIn, rand, pos);
+                } else if (random >= 2){
+                    generateTree(worldIn, pos, state, rand);
+                }
+            }
         }
     }
 

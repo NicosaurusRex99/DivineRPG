@@ -3,7 +3,7 @@ import java.util.Random;
 
 import naturix.divinerpg.DivineRPG;
 import naturix.divinerpg.registry.ModBlocks;
-import naturix.divinerpg.world.TreeGen;
+import naturix.divinerpg.world.treegen.TreeGen;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;

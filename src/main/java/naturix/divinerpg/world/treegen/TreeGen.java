@@ -1,4 +1,4 @@
-package naturix.divinerpg.world;
+package naturix.divinerpg.world.treegen;
 
 import java.util.Random;
 

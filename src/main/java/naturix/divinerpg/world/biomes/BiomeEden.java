@@ -3,7 +3,7 @@ package naturix.divinerpg.world.biomes;
 import java.util.Random;
 
 import naturix.divinerpg.registry.ModBlocks;
-import naturix.divinerpg.world.TreeGen;
+import naturix.divinerpg.world.treegen.TreeGen;
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.entity.boss.EntityWither;
 import net.minecraft.init.Blocks;
