@@ -1,12 +1,6 @@
 package naturix.divinerpg.objects.items.twilight;
 
-import naturix.divinerpg.objects.entities.entity.twilight.Densos;
-import naturix.divinerpg.objects.entities.entity.twilight.EntityReyvor;
-import naturix.divinerpg.objects.entities.entity.twilight.EternalArcher;
-import naturix.divinerpg.objects.entities.entity.twilight.Karot;
-import naturix.divinerpg.objects.entities.entity.twilight.SoulFiend;
-import naturix.divinerpg.objects.entities.entity.twilight.TwilightDemon;
-import naturix.divinerpg.objects.entities.entity.twilight.Vamecheron;
+import naturix.divinerpg.objects.entities.entity.twilight.boss.*;
 import naturix.divinerpg.objects.items.base.ItemBase;
 import naturix.divinerpg.registry.DRPGCreativeTabs;
 import naturix.divinerpg.registry.ModDimensions;
@@ -45,7 +39,7 @@ public class ItemTwilightSpawner extends ItemBase {
 			}
 			if (this == ModItems.densosCrystal || this == ModItems.reyvorCrystal) {
 				Densos e = new Densos(world);
-				EntityReyvor e1 = new EntityReyvor(world);
+				Reyvor e1 = new Reyvor(world);
 
 				e.setPosition(pos.getX() + 1, pos.getY() + 1, pos.getZ());
 				e1.setPosition(pos.getX() - 1, pos.getY() + 1, pos.getZ());

@@ -1,6 +1,6 @@
 package naturix.divinerpg.events;
 
-import naturix.divinerpg.objects.entities.entity.twilight.Epiphite;
+import naturix.divinerpg.objects.entities.entity.twilight.wildwood.Epiphite;
 import naturix.divinerpg.utils.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
