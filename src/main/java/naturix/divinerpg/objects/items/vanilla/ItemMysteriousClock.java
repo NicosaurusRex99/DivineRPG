@@ -1,6 +1,6 @@
 package naturix.divinerpg.objects.items.vanilla;
 
-import naturix.divinerpg.objects.entities.entity.vanilla.AncientEntity;
+import naturix.divinerpg.objects.entities.entity.vanilla.boss.AncientEntity;
 import naturix.divinerpg.objects.items.base.ItemBase;
 import naturix.divinerpg.registry.DRPGCreativeTabs;
 import naturix.divinerpg.utils.log.Logging;

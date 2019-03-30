@@ -72,7 +72,7 @@ public class ItemTwilightSpawner extends ItemBase {
 				return EnumActionResult.PASS;
 			}
 			if (this == ModItems.vamacheronCrystal) {
-				Vamecheron e = new Vamecheron(world);
+				Vamacheron e = new Vamacheron(world);
 				e.setPosition(pos.getX(), pos.getY() + 1, pos.getZ());
 				world.spawnEntity(e);
 				if (!player.capabilities.isCreativeMode) {

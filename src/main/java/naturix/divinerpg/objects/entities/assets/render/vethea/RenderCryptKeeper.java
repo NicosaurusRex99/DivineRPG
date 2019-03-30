@@ -3,7 +3,7 @@ package naturix.divinerpg.objects.entities.assets.render.vethea;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.vethea.model.ModelCryptKeeper;
-import naturix.divinerpg.objects.entities.entity.vethea.CryptKeeper;
+import naturix.divinerpg.objects.entities.entity.vethea.npc.CryptKeeper;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

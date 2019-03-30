@@ -4,7 +4,7 @@ package naturix.divinerpg.objects.entities.assets.render.vethea;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.vethea.model.ModelHungerHungry;
-import naturix.divinerpg.objects.entities.entity.vethea.TheHunger;
+import naturix.divinerpg.objects.entities.entity.vethea.npc.TheHunger;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

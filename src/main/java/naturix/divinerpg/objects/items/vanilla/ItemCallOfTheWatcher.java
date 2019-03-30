@@ -1,6 +1,6 @@
 package naturix.divinerpg.objects.items.vanilla;
 
-import naturix.divinerpg.objects.entities.entity.vanilla.TheWatcher;
+import naturix.divinerpg.objects.entities.entity.vanilla.boss.TheWatcher;
 import naturix.divinerpg.objects.items.base.ItemBase;
 import naturix.divinerpg.registry.DRPGCreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;

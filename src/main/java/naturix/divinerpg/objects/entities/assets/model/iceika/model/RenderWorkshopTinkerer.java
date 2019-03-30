@@ -2,7 +2,7 @@ package naturix.divinerpg.objects.entities.assets.model.iceika.model;
 
 import javax.annotation.Nullable;
 
-import naturix.divinerpg.objects.entities.entity.iceika.WorkshopTinkerer;
+import naturix.divinerpg.objects.entities.entity.iceika.npc.WorkshopTinkerer;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

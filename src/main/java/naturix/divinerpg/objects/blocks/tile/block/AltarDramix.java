@@ -2,7 +2,7 @@ package naturix.divinerpg.objects.blocks.tile.block;
 
 import naturix.divinerpg.DivineRPG;
 import naturix.divinerpg.objects.blocks.tile.entity.TileEntityDramixAltar;
-import naturix.divinerpg.objects.entities.entity.arcana.Dramix;
+import naturix.divinerpg.objects.entities.entity.arcana.boss.Dramix;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
