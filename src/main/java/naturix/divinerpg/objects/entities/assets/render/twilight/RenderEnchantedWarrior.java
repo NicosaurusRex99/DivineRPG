@@ -3,7 +3,7 @@ package naturix.divinerpg.objects.entities.assets.render.twilight;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.twilight.model.ModelEnchantedWarrior;
-import naturix.divinerpg.objects.entities.entity.twilight.apalachia.EnchantedWarrior;
+import naturix.divinerpg.objects.entities.entity.twilight.EnchantedWarrior;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

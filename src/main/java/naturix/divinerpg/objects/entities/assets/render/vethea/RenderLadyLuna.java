@@ -3,7 +3,7 @@ package naturix.divinerpg.objects.entities.assets.render.vethea;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.vethea.model.ModelLadyLuna;
-import naturix.divinerpg.objects.entities.entity.vethea.boss.LadyLuna;
+import naturix.divinerpg.objects.entities.entity.vethea.LadyLuna;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

@@ -3,9 +3,9 @@ package naturix.divinerpg.objects.entities.entity;
 import java.util.Iterator;
 import java.util.UUID;
 
-import naturix.divinerpg.objects.entities.entity.iceika.npc.WorkshopMerchant;
-import naturix.divinerpg.objects.entities.entity.iceika.npc.WorkshopTinkerer;
-import naturix.divinerpg.objects.entities.entity.vethea.npc.TheHunger;
+import naturix.divinerpg.objects.entities.entity.iceika.WorkshopMerchant;
+import naturix.divinerpg.objects.entities.entity.iceika.WorkshopTinkerer;
+import naturix.divinerpg.objects.entities.entity.vethea.TheHunger;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAvoidEntity;

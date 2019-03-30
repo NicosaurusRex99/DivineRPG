@@ -3,7 +3,7 @@ package naturix.divinerpg.objects.entities.assets.render.twilight;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.twilight.model.ModelBunny;
-import naturix.divinerpg.objects.entities.entity.twilight.eden.Bunny;
+import naturix.divinerpg.objects.entities.entity.twilight.Bunny;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

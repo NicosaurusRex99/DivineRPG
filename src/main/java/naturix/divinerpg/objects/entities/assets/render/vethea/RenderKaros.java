@@ -3,7 +3,7 @@ package naturix.divinerpg.objects.entities.assets.render.vethea;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.vethea.model.ModelKaros;
-import naturix.divinerpg.objects.entities.entity.vethea.boss.Karos;
+import naturix.divinerpg.objects.entities.entity.vethea.Karos;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;

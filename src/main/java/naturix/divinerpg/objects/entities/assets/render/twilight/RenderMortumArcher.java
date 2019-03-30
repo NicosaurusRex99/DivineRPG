@@ -3,7 +3,7 @@ package naturix.divinerpg.objects.entities.assets.render.twilight;
 import javax.annotation.Nullable;
 
 import naturix.divinerpg.objects.entities.assets.model.twilight.model.ModelEnchantedArcher;
-import naturix.divinerpg.objects.entities.entity.twilight.mortum.MortumArcher;
+import naturix.divinerpg.objects.entities.entity.twilight.MortumArcher;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;

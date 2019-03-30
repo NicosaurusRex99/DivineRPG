@@ -1,6 +1,6 @@
 package naturix.divinerpg.objects.items.twilight;
 
-import naturix.divinerpg.objects.entities.entity.twilight.boss.*;
+import naturix.divinerpg.objects.entities.entity.twilight.*;
 import naturix.divinerpg.objects.items.base.ItemBase;
 import naturix.divinerpg.registry.DRPGCreativeTabs;
 import naturix.divinerpg.registry.ModDimensions;

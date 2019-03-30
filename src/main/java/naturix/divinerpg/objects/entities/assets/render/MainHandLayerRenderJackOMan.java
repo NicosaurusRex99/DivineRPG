@@ -1,7 +1,7 @@
 package naturix.divinerpg.objects.entities.assets.render;
 
 import naturix.divinerpg.objects.entities.assets.render.vanilla.RenderJackOMan;
-import naturix.divinerpg.objects.entities.entity.vanilla.npc.JackOMan;
+import naturix.divinerpg.objects.entities.entity.vanilla.JackOMan;
 import naturix.divinerpg.registry.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;

@@ -1,10 +1,10 @@
 package naturix.divinerpg.objects.blocks.tile.entity;
 
-import naturix.divinerpg.objects.entities.entity.vanilla.boss.AyeracoBlue;
-import naturix.divinerpg.objects.entities.entity.vanilla.boss.AyeracoGreen;
-import naturix.divinerpg.objects.entities.entity.vanilla.boss.AyeracoPurple;
-import naturix.divinerpg.objects.entities.entity.vanilla.boss.AyeracoRed;
-import naturix.divinerpg.objects.entities.entity.vanilla.boss.AyeracoYellow;
+import naturix.divinerpg.objects.entities.entity.vanilla.AyeracoBlue;
+import naturix.divinerpg.objects.entities.entity.vanilla.AyeracoGreen;
+import naturix.divinerpg.objects.entities.entity.vanilla.AyeracoPurple;
+import naturix.divinerpg.objects.entities.entity.vanilla.AyeracoRed;
+import naturix.divinerpg.objects.entities.entity.vanilla.AyeracoYellow;
 import naturix.divinerpg.registry.ModBlocks;
 import naturix.divinerpg.utils.MessageLocalizer;
 import naturix.divinerpg.utils.log.Logging;
