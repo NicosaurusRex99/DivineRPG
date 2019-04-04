@@ -34,7 +34,7 @@ public class AcidHag extends EntityMob {
 	}
     public static final ResourceLocation LOOT = new ResourceLocation(Reference.MODID, "entities/vethea/acid_hag");
 
-
+    private ResourceLocation deathLootTable = LOOT;
     protected boolean isMaster() {
         return false;
     }
@@ -44,8 +44,12 @@ public class AcidHag extends EntityMob {
         return true;
     }
 
-    private ResourceLocation deathLootTable = LOOT;
+    @Override
+    protected ResourceLocation getLootTable()
+    {
+        return this.LOOT;
 
+    }
     @Override
     protected void applyEntityAttributes() {
         super.applyEntityAttributes();
@@ -115,11 +119,4 @@ public class AcidHag extends EntityMob {
     protected SoundEvent getDeathSound() {
         return DRPGSoundHandler.ACID_HAG_HURT;
     }
-
-    @Override
-	protected ResourceLocation getLootTable()
-	{
-		return this.LOOT;
-
-	}
 }
