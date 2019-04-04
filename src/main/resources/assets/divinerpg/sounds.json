@@ -299,16 +299,16 @@
          "divinerpg:dramix_hurt"
       ]
    },
-   "dream_wrecker":{
+   "dreamwrecker":{
       "category":"master",
       "sounds":[
-         "divinerpg:dream_wrecker"
+         "divinerpg:dreamwrecker"
       ]
    },
-   "dream_wrecker_hurt":{
+   "dreamwrecker_hurt":{
       "category":"master",
       "sounds":[
-         "divinerpg:dream_wrecker_hurt"
+         "divinerpg:dreamwrecker_hurt"
       ]
    },
    "dungeon_prisoner":{
@@ -661,16 +661,16 @@
          "divinerpg:lady_luna_hurt"
       ]
    },
-   "lhevia":{
+   "lheiva":{
       "category":"master",
       "sounds":[
-         "divinerpg:lhevia"
+         "divinerpg:lheiva"
       ]
    },
-   "lhevia_hurt":{
+   "lheiva_hurt":{
       "category":"master",
       "sounds":[
-         "divinerpg:lhevia_hurt"
+         "divinerpg:lheiva_hurt"
       ]
    },
    "liopleurodon":{
@@ -1045,16 +1045,16 @@
          "divinerpg:try_your_best"
       ]
    },
-   "varaak":{
+   "vhraak":{
       "category":"master",
       "sounds":[
-         "divinerpg:varaak"
+         "divinerpg:vhraak"
       ]
    },
-   "varaak_hurt":{
+   "vhraak_hurt":{
       "category":"master",
       "sounds":[
-         "divinerpg:varaak_hurt"
+         "divinerpg:vhraak_hurt"
       ]
    },
    "verek":{

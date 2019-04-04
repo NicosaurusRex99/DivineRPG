@@ -2,6 +2,7 @@ package naturix.divinerpg.objects.entities.entity.vethea;
 
 import javax.annotation.Nullable;
 
+import naturix.divinerpg.registry.DRPGSoundHandler;
 import naturix.divinerpg.utils.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityFlying;
@@ -12,6 +13,7 @@ import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
@@ -93,10 +95,19 @@ public class Lorgaflight extends EntityFlying {
         super.playStepSound(pos, blockIn);
     }
 
-    @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return super.getAmbientSound();
+        return DRPGSoundHandler.LORGA_FLIGHT;
+    }
+
+    @Override
+    protected SoundEvent getHurtSound(DamageSource source) {
+        return DRPGSoundHandler.LORGA_FLIGHT_HURT;
+    }
+
+    @Override
+    protected SoundEvent getDeathSound() {
+        return DRPGSoundHandler.LORGA_FLIGHT_HURT;
     }
 
 }

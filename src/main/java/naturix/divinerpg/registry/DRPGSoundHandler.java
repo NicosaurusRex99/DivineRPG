@@ -61,8 +61,8 @@ public class DRPGSoundHandler {
     public static SoundEvent DRAMCRYX_HURT;
     public static SoundEvent DRAMIX;
     public static SoundEvent DRAMIX_HURT;
-    public static SoundEvent DREAM_WRECKER;
-    public static SoundEvent DREAM_WRECKER_HURT;
+    public static SoundEvent DREAMWRECKER;
+    public static SoundEvent DREAMWRECKER_HURT;
     public static SoundEvent DUNGEON_PRISONER;
     public static SoundEvent DUNGEON_PRISONER_CHANGE;
     public static SoundEvent DUNGEON_PRISONER_HURT;
@@ -130,8 +130,8 @@ public class DRPGSoundHandler {
     public static SoundEvent LADY_LUNA3;
     public static SoundEvent LADY_LUNA_HURT;
     public static SoundEvent LA_VEKOR;
-    public static SoundEvent LHEVIA;
-    public static SoundEvent LHEVIA_HURT;
+    public static SoundEvent LHEIVA;
+    public static SoundEvent LHEIVA_HURT;
     public static SoundEvent LIOPLEURODON;
     public static SoundEvent LIOPLEURODON_HURT;
     public static SoundEvent LIVESTOCK_MERCHANT;
@@ -203,8 +203,8 @@ public class DRPGSoundHandler {
     public static SoundEvent TOCAXIN;
     public static SoundEvent TOCAXIN_HURT;
     public static SoundEvent TRY_YOUR_BEST;
-    public static SoundEvent VARAAK;
-    public static SoundEvent VARAAK_HURT;
+    public static SoundEvent VHRAAK;
+    public static SoundEvent VHRAAK_HURT;
     public static SoundEvent VEREK;
     public static SoundEvent VEREK_HURT;
     public static SoundEvent VERMENOUS;
@@ -283,8 +283,8 @@ public class DRPGSoundHandler {
         DRAMCRYX_HURT = registerSounds("dramcryx_hurt");
         DRAMIX = registerSounds("dramix");
         DRAMIX_HURT = registerSounds("dramix_hurt");
-        DREAM_WRECKER = registerSounds("dream_wrecker");
-        DREAM_WRECKER_HURT = registerSounds("dream_wrecker_hurt");
+        DREAMWRECKER = registerSounds("dreamwrecker");
+        DREAMWRECKER_HURT = registerSounds("dreamwrecker_hurt");
         DUNGEON_PRISONER = registerSounds("dungeon_prisoner");
         DUNGEON_PRISONER_CHANGE = registerSounds("dungeon_prisoner_change");
         DUNGEON_PRISONER_HURT = registerSounds("dungeon_prisoner_hurt");
@@ -352,8 +352,8 @@ public class DRPGSoundHandler {
         LADY_LUNA3 = registerSounds("lady_luna3");
         LADY_LUNA_HURT = registerSounds("lady_luna_hurt");
         LA_VEKOR = registerSounds("la_vekor");
-        LHEVIA = registerSounds("lhevia");
-        LHEVIA_HURT = registerSounds("lhevia_hurt");
+        LHEIVA = registerSounds("lheiva");
+        LHEIVA_HURT = registerSounds("lheiva_hurt");
         LIOPLEURODON = registerSounds("liopleurodon");
         LIOPLEURODON_HURT = registerSounds("liopleurodon_hurt");
         LIVESTOCK_MERCHANT = registerSounds("livestock_merchant");
@@ -425,8 +425,8 @@ public class DRPGSoundHandler {
         TOCAXIN = registerSounds("tocaxin");
         TOCAXIN_HURT = registerSounds("tocaxin_hurt");
         TRY_YOUR_BEST = registerSounds("try_your_best");
-        VARAAK = registerSounds("varaak");
-        VARAAK_HURT = registerSounds("varaak_hurt");
+        VHRAAK = registerSounds("vhraak");
+        VHRAAK_HURT = registerSounds("vhraak_hurt");
         VEREK = registerSounds("verek");
         VEREK_HURT = registerSounds("verek_hurt");
         VERMENOUS = registerSounds("vermenous");

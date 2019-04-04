@@ -2,6 +2,7 @@ package naturix.divinerpg.objects.entities.entity.vethea;
 
 import javax.annotation.Nullable;
 
+import naturix.divinerpg.registry.DRPGSoundHandler;
 import naturix.divinerpg.utils.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
@@ -18,6 +19,7 @@ import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntityPigZombie;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
@@ -98,9 +100,18 @@ public class Mandragora extends EntityMob {
         super.playStepSound(pos, blockIn);
     }
 
-    @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return super.getAmbientSound();
+        return DRPGSoundHandler.MANDRAGORA;
+    }
+
+    @Override
+    protected SoundEvent getHurtSound(DamageSource source) {
+        return DRPGSoundHandler.MANDRAGORA;
+    }
+
+    @Override
+    protected SoundEvent getDeathSound() {
+        return DRPGSoundHandler.MANDRAGORA;
     }
 }
