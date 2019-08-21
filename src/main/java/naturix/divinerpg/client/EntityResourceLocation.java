@@ -126,7 +126,7 @@ public class EntityResourceLocation {
 	public static ResourceLocation vamacheron = addMob("vamacheron");
 	public static ResourceLocation edenTomo = addMob("edenTomo");
 	public static ResourceLocation edenCadillion = addMob("edenCadillion");
-	public static ResourceLocation edenCori = addMob("edenCori");
+	public static ResourceLocation weakCori = addMob("weakCori");
 	public static ResourceLocation greenfeet = addMob("greenfeet");
 	public static ResourceLocation madivel = addMob("madivel");
 	public static ResourceLocation sunArcher = addMob("sunArcher");
@@ -150,7 +150,7 @@ public class EntityResourceLocation {
 	public static ResourceLocation twilightArcher = addMob("twilightArcher");
 	public static ResourceLocation samek = addMob("samek");
 	public static ResourceLocation skythernGolem = addMob("skythernGolem");
-	public static ResourceLocation skythernCori = addMob("skythernCori");
+	public static ResourceLocation advancedCori = addMob("advancedCori");
 	public static ResourceLocation skythernFiend = addMob("skythernFiend");
 	public static ResourceLocation megalith = addMob("megalith");
 	public static ResourceLocation mortumCadillion = addMob("mortumCadillion");

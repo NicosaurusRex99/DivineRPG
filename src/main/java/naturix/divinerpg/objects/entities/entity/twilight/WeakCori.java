@@ -17,9 +17,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 
-public class SkythernCori extends EntityDivineRPGFlying {
-    public static final ResourceLocation LOOT = new ResourceLocation(Reference.MODID,
-            "entities/twilight/skythern_cori");
+public class WeakCori extends EntityDivineRPGFlying {
+    public static final ResourceLocation LOOT = new ResourceLocation(Reference.MODID, "entities/twilight/weak_cori");
 
     public int courseChangeCooldown = 0;
     public double waypointX;
@@ -31,7 +30,7 @@ public class SkythernCori extends EntityDivineRPGFlying {
     public int attackCounter = 0;
     private BlockPos currentFlightTarget;
 
-    public SkythernCori(World worldIn) {
+    public WeakCori(World worldIn) {
         super(worldIn);
         this.setSize(0.6F, 1.5F);
     }
@@ -41,11 +40,10 @@ public class SkythernCori extends EntityDivineRPGFlying {
         return 0.8F;
     }
 
-
     @Override
     protected void applyEntityAttributes() {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(35);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
     }
 
     @Override
@@ -108,7 +106,7 @@ public class SkythernCori extends EntityDivineRPGFlying {
                 if (this.attackCounter == 20) {
                     this.world.playSound((EntityPlayer) null, this.targetedEntity.posX, this.targetedEntity.posY,
                             this.targetedEntity.posZ, ModSounds.CORI_SHOOT, SoundCategory.HOSTILE, 1.0F, 1.0F);
-                    EntityCoriShot shot = new EntityCoriShot(this.world, this, 100);
+                    EntityCoriShot shot = new EntityCoriShot(this.world, this, 30);
                     shot.shoot(tx, ty, tz, 1.6f, 4);
                     if (!this.world.isRemote) {
                         this.world.spawnEntity(shot);
