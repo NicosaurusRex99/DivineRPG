@@ -20,6 +20,7 @@ public class RenderAttractor extends Render<EntityAttractor> {
 
     public void doRender(EntityAttractor entity, double x, double y, double z, float entityYaw,
                          float partialTicks) {
+        System.out.println("Render for attractor done");
         this.bindTexture(getEntityTexture(entity));
         GlStateManager.pushMatrix();
         this.bindEntityTexture(entity);

@@ -553,18 +553,21 @@ public class ModWeapons {
         register(registry, new ItemThrowable("shuriken", BulletType.SHURIKEN_SHOT));
         register(registry, new ItemVileStorm("vile_storm"));
 
-        register(registry, new ItemAnchor("bowhead_anchor", BulletType.BOWHEAD_ANCHOR_SHOT));
+        register(registry, new ItemAnchor("bowhead_anchor"));//, BulletType.BOWHEAD_ANCHOR_SHOT));
+        register(registry, new ItemAnchor("crab_anchor"));//, BulletType.CRAB_ANCHOR_SHOT));
+        register(registry, new ItemAnchor("liopleurodon_anchor"));//, BulletType.LIOPLEURODON_ANCHOR_SHOT));
+        register(registry, new ItemAnchor("shark_anchor"));//, BulletType.SHARK_ANCHOR_SHOT));
+
         register(registry, new RangedWeaponBase("bowhead_cannon", BulletType.BOWHEAD_CANNON_SHOT, ModSounds.GHAST_CANNON, () -> Item.getItemFromBlock(Blocks.CACTUS), 1000, 12));
         register(registry, new ItemCorruptedCannon("corrupted_cannon"));
-        register(registry, new ItemAnchor("crab_anchor", BulletType.CRAB_ANCHOR_SHOT));
+
         register(registry, new RangedWeaponBase("crabclaw_cannon", BulletType.CRABCLAW_CANNON_SHOT, ModSounds.GHAST_CANNON, () -> Item.getItemFromBlock(Blocks.CACTUS), 1000, 12));
         register(registry, new RangedWeaponBase("cyclopsian_staff", BulletType.CYCLOPSIAN_STAFF_SHOT, ModSounds.STAFF, 600, 0));
         register(registry, new RangedWeaponBase("frost_cannon", BulletType.FROST_CANNON_SHOT, ModSounds.FROST_CANNON, () -> Items.SNOWBALL, 15000, 0));
         register(registry, new RangedWeaponBase("ghast_cannon", BulletType.GHAST_CANNON_SHOT, ModSounds.GHAST_CANNON, 100, 20));
         register(registry, new RangedWeaponBase("golden_fury", BulletType.GOLDEN_FURY_SHOT, ModSounds.BLITZ, () -> Items.GOLD_NUGGET, -1, 0));
-        register(registry, new ItemAnchor("liopleurodon_anchor", BulletType.LIOPLEURODON_ANCHOR_SHOT));
+
         register(registry, new RangedWeaponBase("maelstrom", BulletType.MAELSTROM_SHOT, ModSounds.GHAST_CANNON, 100, 0));
-        register(registry, new ItemAnchor("shark_anchor", BulletType.SHARK_ANCHOR_SHOT));
 
         register(registry, new ItemSerenadeOfDeath("serenade_of_death"));
         register(registry, new ItemSerenadeOfHealth("serenade_of_health"));

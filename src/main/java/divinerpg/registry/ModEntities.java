@@ -314,7 +314,8 @@ public class ModEntities {
                 buildProjectileEntry(EntityWreckBouncingProjectile.class, "wreck_bouncing_projectile"),
                 buildProjectileEntry(EntityWreckExplosiveShot.class, "wreck_explosive_shot"),
                 buildProjectileEntry(EntityWreckShot.class, "wreck_shot"),
-        buildProjectileEntry(EntityWildwoodLog.class, "wildwood_log")};
+                buildProjectileEntry(EntityWildwoodLog.class, "wildwood_log")};
+                //buildProjectileEntry(EntityAnchor.class, "anchor_shot")
 
         if (Config.debug) {
             DivineRPG.logger.info(Reference.MODID + " entities have been loaded");
@@ -325,6 +326,9 @@ public class ModEntities {
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
+
+        // Anchor
+        registerRender(EntityAnchor.class, manager -> new RenderAnchor(manager));
 
         // Projectiles
         registerRender(EntityAttractor.class, RenderAttractor::new);
