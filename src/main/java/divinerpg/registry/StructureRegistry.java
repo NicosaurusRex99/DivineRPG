@@ -30,11 +30,16 @@ import divinerpg.utils.DRPGStructureHandler;
 import net.minecraft.world.gen.structure.MapGenStructureIO;
 
 public class StructureRegistry {
+	//EDEN
     public static final DRPGStructureHandler SUNSTORM_DUNGEON = new DRPGStructureHandler("twilight/sunstorm_dungeon");
+    //WILDWOOD
     public static final DRPGStructureHandler TERMASECT_NEST = new DRPGStructureHandler("twilight/termasect_nest");
+    //APALACHIA
     public static final DRPGStructureHandler ETERNAL_ARCHER_DUNGEON = new DRPGStructureHandler("twilight/eternal_archer_dungeon");
+    //SKYTHERN
     public static final DRPGStructureHandler EXPERIENCED_CORI_DUNGEON = new DRPGStructureHandler("twilight/experienced_cori_dungeon");
-
+    //MORTUM
+    
     public static final DRPGStructureHandler COALSTONE_LAMP_1 = new DRPGStructureHandler("iceika/lamps/coalstone_lamp_1");
     public static final DRPGStructureHandler COALSTONE_LAMP_2 = new DRPGStructureHandler("iceika/lamps/coalstone_lamp_2");
     public static final DRPGStructureHandler COALSTONE_LAMP_3 = new DRPGStructureHandler("iceika/lamps/coalstone_lamp_3");
