@@ -7,6 +7,10 @@ Download (CurseForge): https://www.curseforge.com/minecraft/mc-mods/official-div
 
 Discord: https://discord.gg/R9Zc32D
 
+
+### IMPORTANT NOTICE
+ * DivineRPG is once again using the original github which you can find at: https://github.com/DivineRPG/DivineRPG
+
 ### What you can and cannot do with DivineRPG
 ###### You CAN:
 * Download DivineRPG and use it
