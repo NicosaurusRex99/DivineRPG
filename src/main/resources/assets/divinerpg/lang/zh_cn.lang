@@ -1,3 +1,6 @@
+#_created by 784770286
+#_edited by _joccob, MCUmbrella, Imbarainbow
+
 itemGroup.divinerpg_blocks=神圣RPG：方块
 itemGroup.divinerpg_ranged_weapons=神圣RPG：远程武器
 itemGroup.divinerpg_melee_weapons=神圣RPG：近战武器
@@ -11,7 +14,7 @@ itemGroup.divinerpg_vethea=神圣RPG：草药
 
 tile.divine_sapling.name=神圣树苗
 tile.rupee_ore.name=卢比矿石
-tile.arlemite_ore.name=阿尔米特矿石
+tile.arlemite_ore.name=阿勒米特矿石
 tile.realmite_ore.name=诺米特矿石
 tile.bloodgem_ore.name=血石矿石
 tile.netherite_ore.name=熔岩矿石
@@ -148,7 +151,7 @@ tile.divine_moss_stone.name=神圣苔石
 tile.enthralled_dramcryx_spawner.name=摄魂奎克斯刷怪笼
 tile.rotatick_spawner.name=诺勒克刷怪笼
 tile.divine_planks.name=神圣木板
-tile.divine_stairs.name=神圣楼梯    
+tile.divine_stairs.name=神圣楼梯
 tile.divine_slab.name=神圣台阶
 tile.altar_of_corruption.name=凋零附魔台
 tile.bone_chest.name=骷髅箱子
@@ -1265,7 +1268,7 @@ entity.divinerpg.soul_stealer.name=灵魂偷窃者
 entity.divinerpg.spellbinder.name=施法者
 entity.divinerpg.stone_golem.name=岩石傀儡
 entity.divinerpg.sun_archer.name=太阳射手
-entity.divinerpg.tamed_angry_bunny.name被驯服的愤怒的兔子
+entity.divinerpg.tamed_angry_bunny.name=被驯服的愤怒的兔子
 entity.divinerpg.temple_guardian.name=圣殿守护者
 entity.divinerpg.the_eye.name=虚空之眼
 entity.divinerpg.the_grue.name=咕噜
@@ -1461,7 +1464,7 @@ message.merik.hurry=快点，我还有工作要做。
 message.merik.battles=我参加过的战斗比这个地下城里的生物还多。
 message.merik.phoenix=如果您看到了凤凰，请告诉我，这对我来说只是另一天罢了。
 message.datticon.merik=看牢梅里克，他正在偷我的技术。
-message.datticon.furnace你想要比地狱更热的东西吗？我制作出了这个新炉子。
+message.datticon.furnace=你想要比地狱更热的东西吗？我制作出了这个新炉子。
 message.datticon.science=那些傻瓜以为这是魔术，但是我崇尚科学！
 message.datticon.plugged=那些东西不需要被插入。
 message.datticon.redstone=我尝试用过红石，但只停留在原始阶段。
@@ -1673,3 +1676,22 @@ enchantment.world_break=河流
 enchantment.double_dealing_damage=余震
 
 summon.single_use_spawner.delay=会在 %s 秒后被召唤。
+tile.frosted_alure.name=霜冻诱惑
+tile.degraded_brick_slab.name=堕落砖台阶
+tile.degraded_brick_double_slab.name=堕落砖双台阶
+tile.degraded_brick_stairs.name=堕落砖楼梯
+tile.degraded_brick_wall.name=堕落砖墙
+tile.ancient_brick_slab.name=远古砖台阶
+tile.ancient_brick_double_slab.name=远古砖双台阶
+tile.ancient_brick_stairs.name=远古砖楼梯
+tile.ancient_brick_wall.name=远古砖墙
+item.arlemite_nugget.name=阿勒米特粒
+item.realmite_nugget.name=诺米特粒
+item.rupee_nugget.name=卢比粒
+item.netherite_nugget.name=熔岩粒
+message.spawner.peaceful=无法在和平难度下召唤BOSS！
+message.friend=欢迎%s！ 他们是DivineRPG团队成员的朋友。
+message.spawner.item=你必须持有 %s 来召唤这个BOSS！
+tooltip.instant_consumption=瞬间消耗
+tooltip.frosted_alure=似乎比其它方块更能吸引生物？
+jeicompat.tile.arcanium_ore.information=魔幻块生成在秘界的地牢里。做一个传送门去秘界！
